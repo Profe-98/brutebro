@@ -1,0 +1,30 @@
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\bin\Debug\bruteBro.exe.config
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\bin\Debug\bruteBro.exe
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\bin\Debug\bruteBro.pdb
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.csprojAssemblyReference.cache
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.Properties.Resources.resources
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.GenerateResource.cache
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.CoreCompileInputs.cache
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.exe
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.pdb
+C:\Users\0x00405A00\Source\Repos\bruteBro\bruteBro\obj\Debug\bruteBro.MainWindow.resources
+D:\bruteBro\bruteBro\bin\Debug\bruteBro.exe.config
+D:\bruteBro\bruteBro\bin\Debug\bruteBro.exe
+D:\bruteBro\bruteBro\bin\Debug\bruteBro.pdb
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.csprojAssemblyReference.cache
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.MainWindow.resources
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.Properties.Resources.resources
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.GenerateResource.cache
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.CoreCompileInputs.cache
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.exe
+D:\bruteBro\bruteBro\obj\Debug\bruteBro.pdb
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\bin\Debug\bruteBro.exe.config
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\bin\Debug\bruteBro.exe
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\bin\Debug\bruteBro.pdb
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.csprojAssemblyReference.cache
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.MainWindow.resources
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.Properties.Resources.resources
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.GenerateResource.cache
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.CoreCompileInputs.cache
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.exe
+E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.pdb
