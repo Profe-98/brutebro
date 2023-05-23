@@ -28,3 +28,14 @@ E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.cspr
 E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.csproj.CoreCompileInputs.cache
 E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.exe
 E:\Programmierung, Skripting\C#,C++,VB\bruteBro\bruteBro\obj\Debug\bruteBro.pdb
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\bin\Debug\bruteBro.exe.config
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\bin\Debug\bruteBro.exe
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\bin\Debug\bruteBro.pdb
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.csproj.AssemblyReference.cache
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.csproj.SuggestedBindingRedirects.cache
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.MainWindow.resources
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.Properties.Resources.resources
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.csproj.GenerateResource.cache
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.csproj.CoreCompileInputs.cache
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.exe
+D:\Projekte\Anwendungen\Brutebro_Fork\bruteBro\obj\Debug\bruteBro.pdb

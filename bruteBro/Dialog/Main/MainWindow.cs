@@ -11,7 +11,9 @@ using System.Net.Sockets;
 using System.Net;
 using System.IO;
 using System.Net.NetworkInformation;
+using bruteBro.Class;
 using bruteBro.Class.Network;
+using bruteBro.Dialog.Secondary;
 
 namespace bruteBro
 {
@@ -25,10 +27,10 @@ namespace bruteBro
 
         private void StartBTN_Click(object sender, EventArgs e)
         {
-            if(!String.IsNullOrEmpty(ipTBOX.Text))
+            if(!String.IsNullOrEmpty(TBOX_ip.Text))
             {
                 IPAddress ipAddr = null;
-                if (IPAddress.TryParse(ipTBOX.Text, out ipAddr))
+                if (IPAddress.TryParse(TBOX_ip.Text, out ipAddr))
                 {
                     //ObjectManager.BruteForce();
                 }
@@ -39,49 +41,20 @@ namespace bruteBro
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
+            //this.HelpButton = true;
             LogText("Starting Program....");
-            LogText("Init NICs....");
             LogText("Load avaible Protocols....");
-            LoadNicCbox();
-            LoadAvaibleProtocols();
         }
 
         private void LogText(string msg)
         {
             msg = "["+DateTime.Now.ToString("yyyy-MM-dd")+"] [" + DateTime.Now.ToString("HH:mm:ss") + "]:" + msg + Environment.NewLine;
-            logTBOX.Text += msg;
-        }
-
-        private void LoadAvaibleProtocols()
-        {
-            if (portCBOX.Items.Count != 0)
-                portCBOX.Items.Clear();
-
-            portCBOX.Items.Add("23 - Telnet");
-        }
-
-        private void LoadNicCbox()
-        {
-            if (nicCBOX.Items.Count != 0)
-                nicCBOX.Items.Clear();
-
-            ObjectManager.NetworkAdapter = NetworkObjectManager.GetNetworkIntegratedCards();
-            for (int i = 0; i < ObjectManager.NetworkAdapter.Count; i++)
-            {
-                string ipStr = null;
-                List<IPAddress> ips = NetworkObjectManager.GetNICAddresses(ObjectManager.NetworkAdapter[i], AddressFamily.InterNetwork);
-                for (int n = 0; n < ips.Count; n++)
-                {
-                    ipStr += " " + ips[n].ToString() + "";
-                }
-                string fullStr = ""+ ObjectManager.NetworkAdapter[i].Name+": "+ipStr+""; 
-                nicCBOX.Items.Add(fullStr);
-            }
+            TBOX_log.Text += msg;
         }
 
         private void LogonTryCHBOX_CheckedChanged(object sender, EventArgs e)
         {
-            if(logonTryCHBOX.Checked == true)
+            if(CHBOX_logonTry.Checked == true)
             {
                 LogText("Testing logon trys before bruteforce");
             }
@@ -93,31 +66,28 @@ namespace bruteBro
 
         private void PasswordLenghtTBAR_Scroll(object sender, EventArgs e)
         {
-            pwlengthTBARLAB.Text = "PasswordLength - " + passwordLenghtTBAR.Value;
+            TBARLAB_pwlength.Text = "PasswordLength - " + TBAR_passwordLenght.Value;
         }
 
         private void PasswordLenghtTBAR_MouseUp(object sender, MouseEventArgs e)
         {
 
-            LogText("Passwordlenght updated to a lenght of " + passwordLenghtTBAR.Value + "");
+            LogText("Passwordlenght updated to a lenght of " + TBAR_passwordLenght.Value + "");
         }
 
-        private void NicCBOX_SelectedIndexChanged(object sender, EventArgs e)
+        private void BTN_rainbowtbls_Click(object sender, EventArgs e)
         {
-
-            LogText("Selected working nic changed to: "+nicCBOX.SelectedItem.ToString()+"");
+            List<string> tbls = FileManager.OpenFiles();
+            foreach (string tbl in tbls)
+            {
+                LogText($"Added rainbow table {tbl}");
+                LB_rainbow_files.Items.Add(tbl);
+            }
         }
 
-        private void PortCBOX_SelectedIndexChanged(object sender, EventArgs e)
+        private void BTN_Start1_Click(object sender, EventArgs e)
         {
 
-            LogText("Selected working nic changed to: " + portCBOX.SelectedItem.ToString() + "");
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            int x = ObjectManager.GetMaximumLogonTryCount("192.168.2.19", 23);
-            MessageBox.Show(x.ToString());
         }
     }
 }
